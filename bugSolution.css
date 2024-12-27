@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+/* Avoid mixing units within calc() - choose a single consistent unit like pixels. */
+.container {
+  width: 500px; /* Fixed width instead of percentage */
+  height: 300px; /* Fixed height instead of percentage */
+}
+
+.element {
+  width: calc(50% - 20px); /* Removed percentage + pixels combination */
+  /* ...other styles */
+} 
+
+/* Or use alternative layout techniques to avoid complex calc() expressions entirely.  */
