@@ -1,0 +1,1 @@
+The CSS property `calc()` can sometimes lead to unexpected results when used with percentages and other units that are not consistently defined across different browsers or contexts. This can be particularly problematic when combining percentages and pixels, or when dealing with complex layouts involving multiple nested elements.
